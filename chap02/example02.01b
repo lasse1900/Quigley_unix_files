@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# file_path="/path/to/your/file.txt"  # Replace with the actual path to your file
+file_path="guests"  # Replace with the actual path to your file
+
+if [ -e "$file_path" ]; then
+    echo "File exists at $file_path"
+else
+    echo "File does not exist at $file_path"
+fi
+ 

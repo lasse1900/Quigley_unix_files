@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# simplified
+
+if [ -e "guests" ]; then
+    echo "File exists at $file_path"
+else
+    echo "File does not exist at $file_path"
+fi
+ 
